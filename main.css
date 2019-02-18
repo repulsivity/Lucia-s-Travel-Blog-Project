@@ -6,10 +6,10 @@ html {
 }
 
 body {
-    background: #fff;
+    background: #ffc2e4;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
-    font-family: "Quicksand", "https://fonts.google.com/specimen/Quicksand", Arial, sans-serif;
+    font-family: "Quicksand", Quicksand, Arial, sans-serif;
     font-size: 16px;
     line-height: 1;
     margin: 0 auto;
@@ -20,7 +20,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
     color: #202020;
     font-weight: 600;
-    line-height: 1.3;
+    line-height: 1.5;
+    padding: 20px;
 }
 
 h3, h4, h5, h6 {
@@ -32,7 +33,7 @@ h3, h4, h5, h6 {
 }
 
 .authordate {
-    color: #B7B4B6;
+    color: #212630;
 }
 
 .lobster {
@@ -45,4 +46,22 @@ a:hover {
 
 .comfyspacing {
     line-height: 1.5;
+}
+
+ul {
+    padding: 20px;
+    margin: 0px;
+    list-style-type: none;
+    background-image: linear-gradient(#D9D9D9, #B7B4B6);
+    display: inline;
+    overflow: hidden;
+    float: left;
+}
+
+a {
+    display: block;
+}
+
+ol {
+    list-style-type: none;
 }
